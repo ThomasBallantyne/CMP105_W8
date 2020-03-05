@@ -28,7 +28,11 @@ private:
 	// Default variables for level class.
 	sf::RenderWindow* window;
 	Input* input;
+	sf::Font font;
 	Ball ball;
 	Paddle player1;
 	Paddle player2;
+	sf::Vertex line[2];
+	sf::Text score1;
+	sf::Text score2;
 };

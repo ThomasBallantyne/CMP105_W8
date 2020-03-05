@@ -1,4 +1,5 @@
 #pragma once
+#include <iostream>
 #include "Framework/GameObject.h"
 class Ball: public GameObject
 {
@@ -9,5 +10,6 @@ public:
 	void collisionResponse(int response);
 protected:
 	sf::Vector2f changePos;
+	float scale;
 };
 
