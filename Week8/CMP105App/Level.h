@@ -5,6 +5,7 @@
 #include <string>
 #include "Framework/Collision.h"
 #include "Ball.h"
+#include "Box.h"
 #include <iostream>
 
 
@@ -26,6 +27,9 @@ private:
 	sf::RenderWindow* window;
 	Input* input;
 	sf::Texture beachball;
+	sf::Texture goomba;
 	Ball ball1;
 	Ball ball2;
+	Box box1;
+	Box box2;
 };
