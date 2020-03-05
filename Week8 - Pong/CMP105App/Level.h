@@ -3,9 +3,6 @@
 #include <SFML/Graphics.hpp>
 #include "Framework/Input.h"
 #include <string>
-#include "Framework/Collision.h"
-#include "Ball.h"
-#include "Box.h"
 #include <iostream>
 
 
