@@ -3,6 +3,8 @@
 #include <SFML/Graphics.hpp>
 #include "Framework/Input.h"
 #include <string>
+#include "Framework/Collision.h"
+#include "Ball.h"
 #include <iostream>
 
 
@@ -23,4 +25,7 @@ private:
 	// Default variables for level class.
 	sf::RenderWindow* window;
 	Input* input;
+	sf::Texture beachball;
+	Ball ball1;
+	Ball ball2;
 };
